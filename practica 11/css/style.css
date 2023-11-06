@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+p,
+label {
+    color: aquamarine;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    background-color: rgb(171, 117, 222);
+    color: aqua;
+}
