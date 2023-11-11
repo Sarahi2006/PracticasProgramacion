@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+p,
+label {
+    color: aquamarine;
+}
+
+input[type="range"]{
+    width: 100px;    
+}
+
+.card {
+    width: 450px;
+    height: 650px;
+}
+
+.img {
+    width: 400px;
+    height: 350px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+
+#volumen-container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#columen-container label {
+    font-weight: bold;
+    color: white;
+}
+
+#volume {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
