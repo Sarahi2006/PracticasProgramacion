@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 16</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container" >
+        <h1>Registro de asistencia a evento</h1>
+        <form action="" id="formAsistencia">
+            <label for="nombre">
+                Nombre:
+                <input type="text" id="nombre" placeholder="Itamar Medrano" required>
+            </label>
+            <label for="edad">
+                Edad:
+                <input type="number" name="" id="edad" placeholder="17" required>
+            </label>
+            <label for="carnet">
+                Carnet:
+                <input type="text" id="carnet" placeholder="U20230869" required>
+            </label>
+            <label for="carrera">
+                Carrera:
+                <input type="text" name="" id="carrera" placeholder="Ingenieria en desarrollo de software" required>
+            </label>
+
+            <button type="button" onclick="agregarEstudiante()">Registrar</button>
+        </form>
+    </div>
+    <h2>Estudiantes registrados</h2>
+    <table>
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Edad</td>
+                <td>Carnet</td>
+                <td>Carrera</td>
+            </tr>
+        </thead>
+        <tbody id="listaAsistencia">
+            <tr></tr>
+        </tbody>
+    </table>
+</body>
+<script src="./js/main.js"></script>
+</html>
